@@ -4,13 +4,13 @@
 The Page Object Model (POM) is a design pattern used in test automation that creates an object representation of a web page in a single place, providing a centralized way of accessing its elements. In a POM framework, the web page elements are defined as properties of a class, making the tests more readable, maintainable, and scalable.
 
 
-# Coding Language: Python
+ Coding Language: Python
 
-# Author : Gaurav Purwar
+ Author : Gaurav Purwar
 
-# Tools: Appium, PyCharm, Selenium, XCUITest, UIAutomator, WebDriverAgent, Simulator(iOS), Emulator(Android)
+ Tools: Appium, PyCharm, Selenium, XCUITest, UIAutomator, WebDriverAgent, Simulator(iOS), Emulator(Android)
 
-# Platform Coverage: iOS & Android 
+ Platform Coverage: iOS & Android 
 
 
 
