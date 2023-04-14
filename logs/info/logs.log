@@ -1,0 +1,877 @@
+2023-04-14 11:34:43,702 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:34:43,731 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:34:43,734 - root - INFO - *************** verifying element visibility
+2023-04-14 11:34:46,656 - root - ERROR - TestWatchlist.test_001_watchlist_content_validation failed: Who's Watching screen Title Was Not Found!
+2023-04-14 11:34:47,170 - root - ERROR - Handle Exception With Screenshot: ['/Users/biluesparesydney8/Downloads/mobile-automation-tests/Screenshots/TestWatchlist.test_000_login_screenshot_2023_04_14-11_34_38.png', '/Users/biluesparesydney8/Downloads/mobile-automation-tests/Screenshots/TestWatchlist.test_001_watchlist_content_validation_screenshot_2023_04_14-11_34_46.png']
+2023-04-14 11:34:47,195 - root - INFO - In tearDown
+2023-04-14 11:34:52,584 - root - INFO - Config path: /Users/biluesparesydney8/Downloads/mobile-automation-tests/Configs/config.ini
+2023-04-14 11:34:52,584 - root - INFO - Config path: /Users/biluesparesydney8/Downloads/mobile-automation-tests/Configs/config.ini
+2023-04-14 11:34:52,584 - root - INFO - Config path: /Users/biluesparesydney8/Downloads/mobile-automation-tests/Configs/config.ini
+2023-04-14 11:34:52,586 - root - INFO - Sections in config file: ['common info', 'iOS-iPhone14Pro', 'Android-Pixel3', 'Android-Pixel5', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,586 - root - INFO - Sections in config file: ['common info', 'iOS-iPhone14Pro', 'Android-Pixel3', 'Android-Pixel5', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,586 - root - INFO - Sections in config file: ['common info', 'iOS-iPhone14Pro', 'Android-Pixel3', 'Android-Pixel5', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,587 - root - INFO - iOS devices: ['iOS-iPhone14Pro', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,587 - root - INFO - iOS devices: ['iOS-iPhone14Pro', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,587 - root - INFO - iOS devices: ['iOS-iPhone14Pro', 'iOS-iPhone14', 'iOS-iPhone14Plus']
+2023-04-14 11:34:52,590 - root - INFO -  Setting Platform Name as : ios
+2023-04-14 11:34:52,590 - root - INFO -  Setting Platform Name as : ios
+2023-04-14 11:34:52,590 - root - INFO -  Setting Platform Name as : ios
+2023-04-14 11:34:52,590 - root - INFO -  Setting Platform Name as : ios
+2023-04-14 11:34:52,591 - root - INFO - in setup
+2023-04-14 11:34:52,591 - root - INFO - in setup
+2023-04-14 11:34:52,591 - root - INFO - in setup
+2023-04-14 11:34:52,591 - root - INFO - in setup
+2023-04-14 11:34:52,592 - root - INFO - Running Test on Mobile device: iOS-iPhone14Pro
+2023-04-14 11:34:52,592 - root - INFO - Running Test on Mobile device: iOS-iPhone14Pro
+2023-04-14 11:34:52,592 - root - INFO - Running Test on Mobile device: iOS-iPhone14Pro
+2023-04-14 11:34:52,592 - root - INFO - Running Test on Mobile device: iOS-iPhone14Pro
+2023-04-14 11:35:06,193 - root - INFO - Screen size is: 
+2023-04-14 11:35:06,193 - root - INFO - Screen size is: 
+2023-04-14 11:35:06,193 - root - INFO - Screen size is: 
+2023-04-14 11:35:06,193 - root - INFO - Screen size is: 
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,373 - root - INFO - *************** Test_000_Who's Watching Screen *****************
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,379 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,712 - root - INFO - Verified Element Present: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:06,736 - root - INFO - 0 element visible: LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,752 - root - INFO - Clicked on element LOG IN TO WATCH
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,755 - root - INFO - ***************LOG IN TO WATCH Button clicked
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,762 - root - INFO - Implicit Wait for 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:07,767 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:10,017 - root - INFO - 0 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,144 - root - INFO - 1 Checking for element Who’s watching?
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,147 - root - WARNING - Who's Watching Title does not exist. Continue to Login...Element never became visible: accessibility id (Who’s watching?)
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:12,150 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,439 - root - INFO - Implicit Wait for 50
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:14,441 - root - INFO - *************** verifying element visibility
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,398 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:16,401 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,226 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:18,230 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,838 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,842 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:20,848 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,067 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:23,070 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeTextField
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,351 - root - INFO - ***************abcinnovation.mobile+appium_automation@gmail.com Input Entered
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:28,356 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,306 - root - INFO - Verified Element Present: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:32,308 - root - INFO - 0 element visible: //XCUIElementTypeOther[@name="Log in with email - ABC Account - ABC - Australian Broadcasting Corporation"]/XCUIElementTypeSecureTextField
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,973 - root - INFO - ***************Appium11 Input Entered
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:35:37,975 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:36:28,355 - root - INFO - 0 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,615 - root - INFO - 1 Checking for element Done
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,622 - root - WARNING - *************** Element Not visible: Element never became visible: accessibility id (Done)
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:37:18,626 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:08,955 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,568 - root - INFO - Verified Element Present: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:11,569 - root - INFO - 0 element visible: //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,826 - root - INFO - Clicked on element //XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,831 - root - INFO - ***************//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"] Button clicked
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,839 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:14,844 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,824 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,826 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:16,999 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,002 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,269 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,271 - root - INFO - Login Successful!
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,278 - root - INFO - *************** Test_001_Who's Watching Screen *****************
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,284 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,285 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,570 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,573 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,757 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:17,759 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,021 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,026 - root - INFO - Implicit Wait for 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,028 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,294 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,297 - root - INFO - 0 element visible: Who’s watching?
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,468 - root - INFO - *************** Wait for element visible performed
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,470 - root - INFO - *************** verifying element visibility
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,839 - root - INFO - Verified Element Present: Who’s watching?
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:18,841 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,483 - root - INFO - Verified Element Present: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:19,485 - root - INFO - 0 element visible: //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,775 - root - INFO - Clicked on element //*[contains(@name,"Automation_test_abc")]
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,778 - root - INFO - ***************//*[contains(@name,"Automation_test_abc")] Button clicked
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:20,786 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,170 - root - INFO - Verified Element Present: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:21,179 - root - INFO - 0 element visible: mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,836 - root - INFO - Clicked on element mainMenuButton
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,842 - root - INFO - ***************mainMenuButton Button clicked
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:31,845 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,445 - root - INFO - Verified Element Present: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:33,447 - root - INFO - 0 element visible: //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,779 - root - INFO - Clicked on element //*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,782 - root - INFO - ***************//*[@name="Your ABC iview"]/following-sibling::XCUIElementTypeImage Button clicked
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:35,784 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,400 - root - INFO - Verified Element Present: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:36,406 - root - INFO - 0 element visible: watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,817 - root - INFO - Clicked on element watch list
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,820 - root - INFO - ***************watch list Button clicked
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,823 - root - INFO - Navigated to Watchlist Screen!
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:37,827 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,180 - root - INFO - Verified Element Present: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:38,183 - root - INFO - 0 element visible: loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,198 - root - INFO - Clicked on element loginButton
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,200 - root - INFO - ***************loginButton Button clicked
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,202 - root - WARNING -  Wait Timeout Cycle is: 2
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,696 - root - INFO - Verified Element Present: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:39,697 - root - INFO - 0 element visible: Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,127 - root - INFO - Clicked on element Switch profile
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,131 - root - INFO - ***************Switch profile Button clicked
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,134 - root - INFO - Navigated to Who's Watching Screen!
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
+2023-04-14 11:38:41,140 - root - INFO - In tearDown
