@@ -11,6 +11,10 @@ The Page Object Model (POM) is a design pattern used in test automation that cre
  Tools: Appium, PyCharm, Selenium, XCUITest, UIAutomator, WebDriverAgent, Simulator(iOS), Emulator(Android)
 
  Platform Coverage: iOS & Android 
+ 
+ Capabilities: iOS, Android, Windows, macOS
+ 
+ Supports: Native, hybrid, mobile web, Desktop Web, API Automation
 
 
 
@@ -52,7 +56,7 @@ pip install -r requirements.txt
 ## Run tests
 ### Run all tests
 ```
-pytest --html=reports/Automation-Report.html py.test --log-cli-level=INFO
+pytest --html=Reports/report.html tests/abc_iview --log-cli-level=INFO --device=iOS-iPhone14Pro
 ```
 
 ### Run an arbitrary file
@@ -60,17 +64,17 @@ Pytest uses class, module or method names starting with test_ or Test_ to target
 
 ```
 pytest -k 'Test_Iview_Login or Test_video_player or Test_Android_Launch_Uiautomator'
-pytest --html=reports/report.html tests/abc_iview/test_profile.py --log-cli-level=INFO --device=Android-Pixel5
+pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=Android-Pixel5
 ```
 
 ## TestCase
 ### unittest based
 ```
-pytest --html=reports/Automation-Report.html tests/abc_iView/test_home_screen.py --log-cli-level=INFO
+pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=iOS-iPhone14Pro
 ```
 ### For ERRORS Only and to be used in CI/CD pipeline
 ```
-pytest --html=reports/Automation-Report.html tests/abc_iView/test_home_screen.py --log-cli-level=INFO
+pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=iOS-iPhone14Pro
 ```
 
 
