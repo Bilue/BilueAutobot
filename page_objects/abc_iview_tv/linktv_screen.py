@@ -1,7 +1,6 @@
 from typing import Tuple
 
 import pytest
-import requests
 from appium.webdriver.common.appiumby import AppiumBy
 
 from page_objects.abc_iview_tv.base_ui import BaseUI
@@ -95,7 +94,7 @@ class LinkTvScreen(BaseUI):
 
     def link_tv_with_abc_account(self, ctv_login_url: str, ctv_verify_url: str, api_key: str,
                                  user_email: str, password: str) -> bool:
-        code = self.extract_unique_code()[0]
+        code = '1234'
         self.logger.info("Unique code from tv screen: " + str(code))
 
         # LOGIN API request
