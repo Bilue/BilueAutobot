@@ -6,6 +6,18 @@ from utilities.utils import Utils
 
 
 class BaseUI(ActionChains):
+    """
+    Base class for UI-related functionality in the test automation framework.
+
+    This class provides common methods and utilities for interacting with the user interface.
+    It extends the `ActionChains` class, allowing for performing actions like mouse movements and interactions.
+
+    Attributes:
+        app (MainDriver): The main driver instance representing the application under test.
+        logger: The logger instance for logging purposes.
+        utils (Utils): An instance of the Utils class providing utility methods for UI interactions.
+
+    """
     app = None
     logger = LogGen.loggen()
 
@@ -17,8 +29,7 @@ class BaseUI(ActionChains):
         return self.utils.get_element(locator)
 
     def get_attribute(self, locator, attribute: str):
-        element = self.get_element(locator)
-        return element.get_attribute(attribute)
+        return self.utils.get_attribute(locator, attribute)
 
     def get_elements(self, locator):
         return self.utils.get_elements(locator)
@@ -30,8 +41,14 @@ class BaseUI(ActionChains):
         self.logger.info("*************** verifying element visibility")
         return self.utils.is_visible(locator)
 
-    def swipeDown(self, locator, timeout=None):
-        self.utils.swipeDown(locator, timeout=timeout)
+    def swipe_down(self, locator, timeout):
+        self.utils.swipe_down(locator=locator, timeout=timeout)
+
+    def swipe_up(self, locator, timeout):
+        self.utils.swipe_up(locator=locator, timeout=timeout)
+
+    def swipe_l_r_l(self, locator, direction='l_t_r', timeout=None):
+        self.utils.swipe_l_r_l(locator, direction=direction, timeout=timeout)
 
     def wait_visible(self, locator, timeout=None):
         self.utils.wait_visible(locator, timeout=timeout)
@@ -41,9 +58,10 @@ class BaseUI(ActionChains):
         try:
             self.utils.wait_visible(locator, timeout=timeout)
             self.logger.info("*************** Wait for element visible performed")
+            return True
         except Exception as e:
             self.logger.warning("*************** Element Not visible: " + str(e))
-        return self.is_visible(locator)
+            return False
 
     def wait_implicit(self, timeout):
         self.utils.wait_implicit(timeout)

@@ -15,69 +15,92 @@ def read_config():
 
 
 """This script reads values from a configuration file located at "Configs/config.ini". The script 
-contains a class named "ReadProperties" which has four static methods:
+    contains a class named "ReadProperties" which has four static methods:
+    
+    *getPlatformName(): returns the value of the "platform" field under the section "common info" in the configuration file.
+    *getUserEmail(): returns the value of the "useremail" field under the section "common info" in the configuration file.
+    *getPassword(): returns the value of the "password" field under the section "common info" in the configuration file.
+    *getSubProfile(): returns the value of the "subprofileName" field under the section "common info" in the configuration file.
+    
+    Author:
+        Gaurav Purwar
 
-*getPlatformName(): returns the value of the "platform" field under the section "common info" in the configuration file.
-*getUserEmail(): returns the value of the "useremail" field under the section "common info" in the configuration file.
-*getPassword(): returns the value of the "password" field under the section "common info" in the configuration file.
-*getSubProfile(): returns the value of the "subprofileName" field under the section "common info" in the configuration file.
-
-@author Gaurav Purwar
+    Date:
+        23 March 2023
 """
 
 
 class ReadProperties:
     platform_name = None
+    # Not the device name, it's the section name in the config.ini
+    device_section_name = None
 
     @staticmethod
-    def getPlatformName():
+    def get_device_name():
+        device_name = read_config().get(ReadProperties.device_section_name, 'device_name')
+        return device_name
+
+    @staticmethod
+    def get_package_name():
+        package_name = read_config().get(ReadProperties.device_section_name, 'package_name')
+        return package_name
+
+    @staticmethod
+    def get_platform_name():
         return ReadProperties.platform_name
 
     @staticmethod
-    def getUserEmail():
-        email = read_config().get('common info', 'useremail')
-        return email
+    def get_user_email():
+        return read_config().get('common info', 'useremail')
 
     @staticmethod
-    def getPassword():
-        password = read_config().get('common info', 'password')
-        return password
+    def get_password():
+        return read_config().get('common info', 'password')
 
     @staticmethod
-    def getSubProfile():
-        subProfile = read_config().get('common info', 'subprofileName')
-        return subProfile
+    def get_sub_profile():
+        return read_config().get('common info', 'subprofileName')
 
     @staticmethod
-    def getiOSWaitTime():
+    def get_ctv_login_url():
+        return read_config().get('common info', 'ctv_login_url')
+
+    @staticmethod
+    def get_ctv_verify_url():
+        return read_config().get('common info', 'ctv_verify_url')
+
+    @staticmethod
+    def get_api_key():
+        return read_config().get('common info', 'api_key')
+
+    @staticmethod
+    def get_ios_wait_time():
         iosWait = read_config().get('common info', 'iosWaitTime')
         return int(iosWait)
 
     @staticmethod
-    def getAndroidWaitTime():
+    def get_android_wait_time():
         androidWait = read_config().get('common info', 'androidWaitTime')
         return int(androidWait)
 
     @staticmethod
-    def getAppiumSessionUrl():
+    def get_appium_session_url():
         appiumSession = read_config().get('common info', 'appiumSessionUrl')
         return appiumSession
 
-    # for section in config.sections():
-    #     if section.startswith('Android'):
-    #         platform_name = config.get(section, 'platformName')
-    #         # platform_version = config.get(section, 'platformVersion')
-    #         device_name = config.get(section, 'deviceName')
-    #         # do something with the Android device properties
-    #
-    #     elif section.startswith('iOS'):
-    #         platform_name = config.get(section, 'platformName')
-    #         platform_version = config.get(section, 'platformVersion')
-    #         device_name = config.get(section, 'deviceName')
-    #         # do something with the iOS device properties
     @staticmethod
-    def setPlatformName(section_name):
+    def set_platform_name(section_name):
         logger = LogGen.loggen()
         platform_name = read_config().get(section_name, 'platform_name')
         logger.info(f" Setting Platform Name as : {platform_name}")
         ReadProperties.platform_name = platform_name
+
+    @staticmethod
+    def set_device_selection_name(section_name):
+        """
+        Called within base_tests.py fixture to set the section_name (test device), to allow other method to use this value.
+        """
+        logger = LogGen.loggen()
+        logger.info(f" Setting Device-section Name as : {section_name}")
+        ReadProperties.device_section_name = section_name
+        logger.info(f" Device-section Name set as : {ReadProperties.device_section_name}")

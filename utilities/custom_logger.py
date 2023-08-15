@@ -6,14 +6,18 @@ from logging.handlers import RotatingFileHandler
 """
 
 
-This code creates a logging mechanism for an application. It creates several handlers for 
-different log levels (ERROR, WARNING, DEBUG, and INFO), sets each handler's level and formatter, and adds each 
-handler to a logger object. The handlers write log messages to different log files and also to the console. 
-Additionally, the script uses a rotating file handler to limit the size of the log file. The logs are organized in 
-several directories (Error, Warning, Debug, and Info) inside a Logs directory. The logger object is returned so it 
-can be used in other parts of the application.
+    This code creates a logging mechanism for an application. It creates several handlers for 
+    different log levels (ERROR, WARNING, DEBUG, and INFO), sets each handler's level and formatter, and adds each 
+    handler to a logger object. The handlers write log messages to different log files and also to the console. 
+    Additionally, the script uses a rotating file handler to limit the size of the log file. The logs are organized in 
+    several directories (Error, Warning, Debug, and Info) inside a Logs directory. The logger object is returned so it 
+    can be used in other parts of the application.
 
-@author Gaurav Purwar
+    Author:
+        Gaurav Purwar
+
+    Date:
+        23 March 2023
 
 """
 logger = logging.getLogger()

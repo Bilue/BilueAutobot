@@ -1,22 +1,35 @@
-# Automation Framework: Page Object Model
-
 # Page Object Model (POM) Framework in Python
+
+**Coding Language**: Python
+
+**Author** : Gaurav Purwar
+
+**Date** : March 2023
+
+**Tools**: Appium, PyCharm, Selenium, XCUITest, UIAutomator, WebDriverAgent, Simulator(iOS), Emulator(Android)
+
+**Platform Coverage**: iOS & Android
+
+**Capabilities**: iOS, Android, Windows, macOS
+
+**Supports**: 
+* Native Mobile App,
+* Hybrid,
+* Mobile web,
+* Desktop Web,
+* API Automation, 
+* TV Apps 
+* Cross Platform (i.e Anroid, iOS, Apple TV, Android TV, Web)
+
+
 The Page Object Model (POM) is a design pattern used in test automation that creates an object representation of a web page in a single place, providing a centralized way of accessing its elements. In a POM framework, the web page elements are defined as properties of a class, making the tests more readable, maintainable, and scalable.
 
-
- Coding Language: Python
-
- Author : Gaurav Purwar
-
- Tools: Appium, PyCharm, Selenium, XCUITest, UIAutomator, WebDriverAgent, Simulator(iOS), Emulator(Android)
-
- Platform Coverage: iOS & Android 
- 
- Capabilities: iOS, Android, Windows, macOS
- 
- Supports: Native, hybrid, mobile web, Desktop Web, API Automation
-
-
+## Prerequisites
+1. Understanding how Appium works
+2. Connecting Mobile Devices Simulator and Emulators and check from terminal
+3. Connecting Hardware devices and check from terminal
+4. Launching app using Appium Inspector
+5. Get the Test Mobile app or TV App and place it in **/app** folder
 
 ## Getting started with POM in Python
 Here are the steps to set up a POM framework in Python:
@@ -56,7 +69,8 @@ pip install -r requirements.txt
 ## Run tests
 ### Run all tests
 ```
-pytest --html=Reports/report.html tests/abc_iview --log-cli-level=INFO --device=iOS-iPhone14Pro
+pytest --html=reports/Automation-Report.html py.test --log-cli-level=INFO
+pytest --html=Reports/report.html tests/abc_iview --log-cli-level=INFO --section_name=iOS-iPhone14Pro-iview
 ```
 
 ### Run an arbitrary file
@@ -64,17 +78,21 @@ Pytest uses class, module or method names starting with test_ or Test_ to target
 
 ```
 pytest -k 'Test_Iview_Login or Test_video_player or Test_Android_Launch_Uiautomator'
-pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=Android-Pixel5
+pytest --html=reports/report.html tests/abc_iview/test_login.py --log-cli-level=INFO --section_name=Android-Pixel5-iview
+pytest --html=Reports/report.html tests/abc_iview/test_login.py --log-cli-level=INFO --section_name=iOS-iPhone14Pro-iview
 ```
 
 ## TestCase
 ### unittest based
 ```
-pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=iOS-iPhone14Pro
+pytest --html=reports/Automation-Report.html tests/abc_iview/test_login.py --log-cli-level=INFO
 ```
 ### For ERRORS Only and to be used in CI/CD pipeline
 ```
-pytest --html=Reports/report.html tests/abc_iview/test_viewing_history.py --log-cli-level=INFO --device=iOS-iPhone14Pro
+pytest --html=reports/Automation-Report.html tests/abc_iview/test_login.py --log-cli-level=INFO
 ```
 
-
+### For TV
+```
+pytest --html=Reports/abc_iview_report.html tests/abc_iview_tv --log-cli-level=INFO --section_name=tvOS-AppleTV4K-iview
+```

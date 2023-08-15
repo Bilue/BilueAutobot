@@ -8,7 +8,7 @@ from utilities.utils import config
 
 
 class MyLoginScreen(BaseUI):
-    if ReadProperties.getPlatformName() == 'ios':
+    if ReadProperties.get_platform_name() == 'ios':
         log_in_with_email_btn = (AppiumBy.XPATH, '//XCUIElementTypeButton[@name="LOG IN WITH EMAIL"]')
         sign_up_btn = (AppiumBy.XPATH, '//XCUIElementTypeStaticText[@name="Sign Up"]')
         log_in_btn = (AppiumBy.XPATH, '//XCUIElementTypeStaticText[@name="Log in"]')
@@ -33,8 +33,8 @@ class MyLoginScreen(BaseUI):
         super().__init__(app)
 
     def clickOniOSDoneKey(self):
-        if ReadProperties.getPlatformName() == 'ios':
-            if self.is_visible_after_wait(self.ios_done_key, 2):
+        if ReadProperties.get_platform_name() == 'ios':
+            if self.is_visible_after_wait(self.ios_done_key, 1):
                 self.click(self.ios_done_key)
 
     def clickOnLoginWithEmailBtn(self, App: Application):

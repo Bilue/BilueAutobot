@@ -31,9 +31,10 @@ class LoginFlow(BaseScreenAction):
         mylogin_screen.clickOnLoginWithEmailBtn(App)
         mylogin_screen.send_keys(mylogin_screen.email_fld, email)
         mylogin_screen.send_keys(mylogin_screen.password_fld, password)
-        mylogin_screen.clickOniOSDoneKey()
+        # TODO uncomment based on different mobile screen sizes
+        #mylogin_screen.clickOniOSDoneKey()
         mylogin_screen.click(mylogin_screen.log_in_with_email_btn)
-        if not whosWatchingScreen.verifyTitleVisible():
+        if not whosWatchingScreen.verifyTitleVisible(5):
             mylogin_screen.click(mylogin_screen.continue_to_iview_btn)
 
         self.logger.info("Login Successful!")

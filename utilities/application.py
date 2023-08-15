@@ -5,27 +5,31 @@ from utilities.main_driver import MainDriver
 
 """
 
+    Author:
+        Gaurav Purwar
 
-This script implements a custom class for automating an application. The class is called 
-"Application" and it inherits from two base classes: MainDriver and TouchAction. The MainDriver class is likely a 
-custom class for setting up a WebDriver instance for automating an application. The TouchAction class is from the 
-Appium library and provides methods for performing touch gestures on a mobile device.
+    Date:
+        23 March 2023
 
-*The MyApplication class has several methods for automating the application, such as:
-
-*open_my_application_ios and open_my_application_android: methods for opening the application on iOS and Android 
-devices, respectively.
-
-*close_my_application: method for closing the application.
-
-*set_actions: method for creating a TouchAction instance.
-
-*set_ActionChains: method for creating an ActionChains instance.
-
-The class makes use of the MainDriver class to initialize the WebDriver instance and open the application on a mobile 
-device. The TouchAction and ActionChains classes are used for performing touch gestures and mouse actions, respectively.
-
-@author Gaurav Purwar
+    This script implements a custom class for automating an application. The class is called 
+    "Application" and it inherits from two base classes: MainDriver and TouchAction. The MainDriver class is likely a 
+    custom class for setting up a WebDriver instance for automating an application. The TouchAction class is from the 
+    Appium library and provides methods for performing touch gestures on a mobile device.
+    
+    *The MyApplication class has several methods for automating the application, such as:
+    
+    *open_my_application_ios and open_my_application_android: methods for opening the application on iOS and Android 
+    devices, respectively.
+    
+    *close_my_application: method for closing the application.
+    
+    *set_actions: method for creating a TouchAction instance.
+    
+    *set_ActionChains: method for creating an ActionChains instance.
+    
+    The class makes use of the MainDriver class to initialize the WebDriver instance and open the application on a mobile 
+    device. The TouchAction and ActionChains classes are used for performing touch gestures and mouse actions, respectively.
+    
 
 """
 

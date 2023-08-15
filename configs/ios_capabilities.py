@@ -1,10 +1,7 @@
 # Full list of available capabilities here: https://appium.github.io/appium/docs/en/2.0/guides/caps/
-import configparser
 import os
 
 from utilities.read_properties import read_config, ReadProperties
-
-Apps_Path = os.path.abspath('../mobile-automation-tests/apps/ABC-iview1901202311.app.zip')
 
 
 def getiOSCapabilities(section_name):
@@ -12,16 +9,16 @@ def getiOSCapabilities(section_name):
 
     capabilities = {
         "platformName": config.get(section_name, "platform_name"),
-        "appium:app": f"{Apps_Path}",
+        "appium:app": os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'apps', config.get(section_name, "app_name"))),
         "appium:autoAcceptAlerts": True,
         "appium:autoGrantPermissions": True,
         "appium:automationName": "XCuiTest",
         "appium:commandTimeouts": "12000",
-        "appium:deviceName": config.get(section_name, "deviceName"),
-        "appium:platformVersion": config.get(section_name, "platformVersion"),
+        "appium:deviceName": config.get(section_name, "device_name"),
+        "appium:platformVersion": config.get(section_name, "platform_version"),
         "appium:udid": config.get(section_name, "udid"),
         "appium:wdaLaunchTimeout": 50000,
-        "appium:xcodeOrgId": "gaurav.purwar@bilue.com.au",
+        "appium:xcodeOrgId": "purwar.gaurav@abc.net.au",
         "appium:xcodeSigningId": "Developer"
     }
 

@@ -6,15 +6,19 @@ from configs.ios_capabilities import getiOSCapabilities
 from utilities.read_properties import ReadProperties
 
 """
-The class MainDriver is a Python class that provides functionality for opening a mobile application on either 
-Android or iOS platforms. The class makes use of the Appium library for launching the application, 
-with the appropriate platform-specific capabilities. The class provides methods for opening an application for either 
-platform, updating the driver for interacting with Jetpack Compose UI elements on Android or normal UI elements on 
-Android, and closing the application. The class uses the ReadProperties class to determine the platform on which the 
-application should be launched. The class is designed to be used as a parent class in a larger framework for 
-automating mobile applications.
+    The class MainDriver is a Python class that provides functionality for opening a mobile application on either 
+    Android or iOS platforms. The class makes use of the Appium library for launching the application, 
+    with the appropriate platform-specific capabilities. The class provides methods for opening an application for either 
+    platform, updating the driver for interacting with Jetpack Compose UI elements on Android or normal UI elements on 
+    Android, and closing the application. The class uses the ReadProperties class to determine the platform on which the 
+    application should be launched. The class is designed to be used as a parent class in a larger framework for 
+    automating mobile applications.
 
-@author Gaurav Purwar
+    Author:
+        Gaurav Purwar
+
+    Date:
+        23 March 2023
 
 """
 
@@ -24,24 +28,24 @@ class MainDriver():
         self.driver_instance = None
 
     def launchApp(self, section_name):
-        if 'ios' in section_name.lower():
-            self.open_application_ios(section_name)
-        elif 'android' in section_name.lower():
+        if 'android' in section_name.lower() or 'atvos' in section_name.lower():
             self.open_application_android(section_name)
+        elif 'ios' in section_name.lower() or 'tvos' in section_name.lower():
+            self.open_application_ios(section_name)
         else:
-            raise ValueError("Please check the device in command line argument: "+str(section_name))
+            raise ValueError("Please check the device in the command line argument: " + str(section_name))
 
     def open_application_android(self, section_name):
         cap = getAndroidCapabilities(section_name)
         options = UiAutomator2Options().load_capabilities(cap)
-        driver = webdriver.Remote(command_executor=ReadProperties.getAppiumSessionUrl(), options=options)
+        driver = webdriver.Remote(command_executor=ReadProperties.get_appium_session_url(), options=options)
         self.driver_instance = driver
         return driver
 
     def open_application_ios(self, section_name):
         cap = getiOSCapabilities(section_name)
         options = XCUITestOptions().load_capabilities(cap)
-        driver = webdriver.Remote(command_executor=ReadProperties.getAppiumSessionUrl(), options=options)
+        driver = webdriver.Remote(command_executor=ReadProperties.get_appium_session_url(), options=options)
         self.driver_instance = driver
         return driver
 
