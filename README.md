@@ -25,11 +25,20 @@
 The Page Object Model (POM) is a design pattern used in test automation that creates an object representation of a web page in a single place, providing a centralized way of accessing its elements. In a POM framework, the web page elements are defined as properties of a class, making the tests more readable, maintainable, and scalable.
 
 ## Prerequisites
-1. Understanding how Appium works
-2. Connecting Mobile Devices Simulator and Emulators and check from terminal
-3. Connecting Hardware devices and check from terminal
-4. Launching app using Appium Inspector
-5. Get the Test Mobile app or TV App and place it in **/app** folder
+1. Understanding of Appium:
+Ensure you have a basic understanding of how Appium works, including its concepts, architecture, and how it interacts with mobile apps.
+
+2. Familiarity with Mobile Platforms:
+Have some familiarity with the mobile platforms (iOS and Android) that you'll be testing. This includes understanding device simulators/emulators and real devices.
+
+3. Programming Knowledge:
+A foundation in programming is important, especially in Python, as you'll be using Python to write your automation tests.
+
+4. Connecting Mobile Devices Simulator and Emulators and check from terminal
+5. Connecting Hardware devices and check from terminal
+6. Launching app using Appium Inspector
+7. Get the Test Mobile app or TV App and place it in **/app** folder
+
 
 ## Getting started with POM in Python
 Here are the steps to set up a POM framework in Python:
@@ -96,3 +105,14 @@ pytest --html=reports/Automation-Report.html tests/abc_iview/test_login.py --log
 ```
 pytest --html=Reports/abc_iview_report.html tests/abc_iview_tv --log-cli-level=INFO --section_name=tvOS-AppleTV4K-iview
 ```
+
+## Learning and Troubleshooting:
+
+Explore Appium Documentation:
+Continuously refer to the official Appium documentation for any guidance on capabilities, methods, and best practices.
+
+Community and Forums:
+Engage with the Appium community on forums, such as Stack Overflow or the Appium GitHub repository, to seek help and share experiences.
+
+Debugging and Troubleshooting:
+Develop your debugging skills to identify issues in your test scripts, environments, or app configurations.
