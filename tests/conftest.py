@@ -14,13 +14,7 @@ logger = LogGen.loggen()
 
 @pytest.fixture(scope='session')
 def mobile_devices():
-
-    # Navigate two levels up to reach the project directory
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-    # Construct the path to the config file
-    config_path = os.path.join(project_dir, 'configs', 'config.ini')
-    #config_path = os.path.abspath(os.path.join('../mobile-automation-tests/configs/config.ini'))
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'configs', 'config.ini')
     config = configparser.ConfigParser()
     config.read(config_path)
     devices = [section for section in config.sections() if "iOS" in section]

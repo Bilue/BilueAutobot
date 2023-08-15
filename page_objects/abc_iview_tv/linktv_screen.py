@@ -17,6 +17,9 @@ class LinkTvScreen(BaseUI):
     elif ReadProperties.get_platform_name() == 'Android':
         tv_link_tv_unique_code_ele = (AppiumBy.XPATH, "//*[@index= '8']")
 
+    elif ReadProperties.get_platform_name() == 'web':
+        pass
+
     else:
         pytest.fail("ERROR - Check the Platform Name: " + str(ReadProperties.get_platform_name()))
 

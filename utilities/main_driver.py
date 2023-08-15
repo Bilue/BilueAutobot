@@ -4,22 +4,23 @@ from appium.options.android.uiautomator2.base import UiAutomator2Options
 from configs.android_capabilities import getAndroidCapabilities
 from configs.ios_capabilities import getiOSCapabilities
 from utilities.read_properties import ReadProperties
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 """
-    The class MainDriver is a Python class that provides functionality for opening a mobile application on either 
-    Android or iOS platforms. The class makes use of the Appium library for launching the application, 
-    with the appropriate platform-specific capabilities. The class provides methods for opening an application for either 
-    platform, updating the driver for interacting with Jetpack Compose UI elements on Android or normal UI elements on 
-    Android, and closing the application. The class uses the ReadProperties class to determine the platform on which the 
-    application should be launched. The class is designed to be used as a parent class in a larger framework for 
-    automating mobile applications.
+The class MainDriver is a Python class that provides functionality for opening a mobile application on either 
+Android or iOS platforms. The class makes use of the Appium library for launching the application, 
+with the appropriate platform-specific capabilities. The class provides methods for opening an application for either 
+platform, updating the driver for interacting with Jetpack Compose UI elements on Android or normal UI elements on 
+Android, and closing the application. The class uses the ReadProperties class to determine the platform on which the 
+application should be launched. The class is designed to be used as a parent class in a larger framework for 
+automating mobile applications.
 
     Author:
         Gaurav Purwar
 
     Date:
         23 March 2023
-
 """
 
 
@@ -32,6 +33,8 @@ class MainDriver():
             self.open_application_android(section_name)
         elif 'ios' in section_name.lower() or 'tvos' in section_name.lower():
             self.open_application_ios(section_name)
+        elif 'web' in section_name.lower():
+            self.open_application_web(section_name)
         else:
             raise ValueError("Please check the device in the command line argument: " + str(section_name))
 
@@ -48,6 +51,13 @@ class MainDriver():
         driver = webdriver.Remote(command_executor=ReadProperties.get_appium_session_url(), options=options)
         self.driver_instance = driver
         return driver
+
+    def open_application_web(self, section_name):
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver.get(ReadProperties.get_website_url(section_name))
+        self.driver_instance = driver
+        return driver
+
 
     def update_driver_to_Compose(self):
         """

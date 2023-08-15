@@ -16,7 +16,7 @@ def read_config():
 
 """This script reads values from a configuration file located at "Configs/config.ini". The script 
     contains a class named "ReadProperties" which has four static methods:
-    
+
     *getPlatformName(): returns the value of the "platform" field under the section "common info" in the configuration file.
     *getUserEmail(): returns the value of the "useremail" field under the section "common info" in the configuration file.
     *getPassword(): returns the value of the "password" field under the section "common info" in the configuration file.
@@ -48,6 +48,10 @@ class ReadProperties:
     @staticmethod
     def get_platform_name():
         return ReadProperties.platform_name
+
+    @staticmethod
+    def get_website_url(section_name):
+        return read_config().get(section_name, 'website_url')
 
     @staticmethod
     def get_user_email():
