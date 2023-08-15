@@ -8,6 +8,7 @@ class TestLogin(BaseTests):
     """
     def test_login_flow_001(self, App):
         try:
+            self.logger.info("*************** Test Health Check *****************")
             self.init_test(App)
             self.logger.info("*************** Test_Login_001 *****************")
             # Start
