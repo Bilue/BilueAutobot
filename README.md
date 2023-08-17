@@ -34,26 +34,18 @@ Have some familiarity with the mobile platforms (iOS and Android) that you'll be
 3. Programming Knowledge:
 A foundation in programming is important, especially in Python, as you'll be using Python to write your automation tests.
 
-4. Connecting Mobile Devices Simulator and Emulators and check from terminal
-5. Connecting Hardware devices and check from terminal
-6. Launching app using Appium Inspector
-7. Get the Test Mobile app or TV App and place it in **/app** folder
+##  **Installation Guide:** 
+- [ ] Install Pycharm from JetBrains Toolbox
+- [ ] Install Python
+- [ ] Install Appium 
+- [ ] Install and Run Appium Inspector to launch the App on iOS and Android Platform
+- [ ] Connect with Real Device - any iPhone device
+- [ ] Connect with Emulators - Any Android Device
+- [ ] Connect with Simulators - For iOS devices
+- [ ] Import the project from https://github.com/Bilue/BilueAutobot/
+- [ ] Install below required packages requirement.txt that should install all the python libraries
+- [ ] Get ready to run the test health_check using below commands 
 
-
-## Getting started with POM in Python
-Here are the steps to set up a POM framework in Python:
-
-## Install required packages:
-You need to have the following packages installed: selenium, unittest, and pytest.
-
-## Create a directory for your project: 
-Choose a location for your project and create a directory for it.
-
-## Create a Python file for your page object class: 
-This file will define the page object class and its properties, representing the elements on the page.
-
-## Create a Python file for your tests: 
-This file will contain the tests that will interact with the page object class, performing actions on the elements and asserting the results.
 
 ## Run your tests: 
 Use a test runner, such as Pytest, to run your tests.
@@ -63,7 +55,7 @@ The page object class should contain properties that represent the elements on t
 ## Setup
 
 # This test requires the following tools to work
-- Appium 2 beta (please use https://appium.github.io/appium/docs/en/2.0/)
+- Appium 2 beta (please use https://appium.github.io/appium/docs/en/2.0/) 2.0.0-beta.52
 - Xcode and simulators 
 - Android studio and emulators
 - xcuitest - an Appium iOS automator
@@ -76,6 +68,13 @@ pip install -r requirements.txt
 ```
 
 ## Run tests
+### Run Health Check
+
+```
+pytest --html=Reports/abc_iview_report.html tests/health_check --log-cli-level=INFO --section_name=iOS-iPhone14Pro-iview
+```
+
+### Other Examples:
 ### Run all tests
 ```
 pytest --html=reports/Automation-Report.html py.test --log-cli-level=INFO
