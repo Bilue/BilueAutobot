@@ -38,13 +38,13 @@ A foundation in programming is important, especially in Python, as you'll be usi
 - [ ] Install Pycharm from JetBrains Toolbox
 - [ ] Install Python
 - [ ] Install Appium 
-- [ ] Install and Run Appium Inspector to launch the App on iOS and Android Platform
 - [ ] Connect with Real Device - any iPhone device
 - [ ] Connect with Emulators - Any Android Device
 - [ ] Connect with Simulators - For iOS devices
+- - [ ] Install and Run Appium Inspector to launch the App on iOS and Android Platform
 - [ ] Import the project from https://github.com/Bilue/BilueAutobot/
 - [ ] Install below required packages requirement.txt that should install all the python libraries
-- [ ] Get ready to run the test health_check using below commands 
+- [ ] Get ready to run the test health_check using below commands and start automating the test scripts
 
 
 ## Run your tests: 
