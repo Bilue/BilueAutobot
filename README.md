@@ -34,6 +34,13 @@ Have some familiarity with the mobile platforms (iOS and Android) that you'll be
 3. Programming Knowledge:
 A foundation in programming is important, especially in Python, as you'll be using Python to write your automation tests.
 
+### References: 
+
+- https://pypi.org/
+
+
+- https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md
+
 ##  **Installation Guide:** 
 - [ ] Install Pycharm from JetBrains Toolbox
 - [ ] Install Python
