@@ -4,8 +4,7 @@ from appium.options.android.uiautomator2.base import UiAutomator2Options
 from configs.android_capabilities import getAndroidCapabilities
 from configs.ios_capabilities import getiOSCapabilities
 from utilities.read_properties import ReadProperties
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+
 
 """
 The class MainDriver is a Python class that provides functionality for opening a mobile application on either 
@@ -53,11 +52,12 @@ class MainDriver():
         return driver
 
     def open_application_web(self, section_name):
+        from selenium import webdriver
+        from webdriver_manager.chrome import ChromeDriverManager
         driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get(ReadProperties.get_website_url(section_name))
         self.driver_instance = driver
         return driver
-
 
     def update_driver_to_Compose(self):
         """

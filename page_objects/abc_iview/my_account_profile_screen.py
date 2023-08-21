@@ -3,7 +3,6 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 from page_objects.abc_iview.base_ui import BaseUI
 from utilities.read_properties import ReadProperties
-from utilities.utils import config
 
 
 class MyAccountProfileScreen(BaseUI):

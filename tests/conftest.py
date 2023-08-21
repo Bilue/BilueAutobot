@@ -38,7 +38,7 @@ def App(request, mobile_devices):
     logger.info(f"Running Test on Mobile device: {section_name}")
     App.launchApp(section_name)
     screenSize = App.driver_instance.get_window_size()
-    logger.info("Screen size is: ", screenSize)
+    logger.info("Screen size is: %s", screenSize)
 
     def tearDown():
         logger.info("In tearDown")

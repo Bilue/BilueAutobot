@@ -65,11 +65,11 @@ The page object class should contain properties that represent the elements on t
 - Appium 2 beta (please use https://appium.github.io/appium/docs/en/2.0/) 2.0.0-beta.52
 - Xcode and simulators 
 - Android studio and emulators
-- xcuitest - an Appium iOS automator
-- uiautomator2 - an Appium Android automator
 - Python 3.11 
 - All external reqs in the requirements.txt
-
+-  uiautomator2@2.12.1 (automationName 'UiAutomator2')
+-  xcuitest@4.12.2 (automationName 'XCUITest')
+- 
 ```
 pip install -r requirements.txt
 ```

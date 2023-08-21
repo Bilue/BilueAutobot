@@ -1,4 +1,5 @@
 import inspect
+
 from utilities.custom_logger import LogGen
 from utilities.application import Application
 from utilities.read_properties import ReadProperties
@@ -33,7 +34,7 @@ from utilities.utils import Utils
                 except Exception as e:
                     self.handle_exception(App, e)
                     # Handle the exception or failure case
-                    
+
     Author: 
         Gaurav Purwar
     """

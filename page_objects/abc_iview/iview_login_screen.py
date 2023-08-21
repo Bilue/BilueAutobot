@@ -4,8 +4,6 @@ from utilities.application import Application
 from page_objects.abc_iview.base_ui import BaseUI
 
 from utilities.read_properties import ReadProperties
-from utilities.utils import config
-
 
 class Iview_Login_Screen(BaseUI):
     if ReadProperties.get_platform_name() == 'ios':
