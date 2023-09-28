@@ -11,7 +11,7 @@ def getAndroidCapabilities(section_name):
         "platformName": config.get(section_name, "platform_name"),
         "appium:automationName": "uiautomator2",
         "appium:deviceName": config.get(section_name, "device_name"),
-        "appium:app": os.path.abspath(os.path.join('../mobile-automation-tests/apps/', config.get(section_name, "app_name"))),
+        "appium:app": os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'apps', config.get(section_name, "app_name"))),
         "appium:ensureWebviewsHavePages": True,
         "appium:nativeWebScreenshot": True,
         "appium:showGradleLog": "true",

@@ -34,6 +34,12 @@ Have some familiarity with the mobile platforms (iOS and Android) that you'll be
 3. Programming Knowledge:
 A foundation in programming is important, especially in Python, as you'll be using Python to write your automation tests.
 
+4. Run .apk file on real and emulator device - using Appium Inspector
+5. Run .app.zip file on simulator - using Appium Inspector
+6. Run .ipa file on real iphone device - using Appium Inspector 
+7. Run the framework with the command given in README.md file
+
+
 ### References: 
 
 - https://pypi.org/
