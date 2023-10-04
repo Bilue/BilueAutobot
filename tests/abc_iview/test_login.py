@@ -6,6 +6,7 @@ class TestLogin(BaseTests):
     """
     test_login_flow_001: when user is not logged in
     """
+
     def test_001_login_flow(self, App):
         try:
             self.init_test(App)
@@ -13,6 +14,14 @@ class TestLogin(BaseTests):
             # Start
             assert self.iview_login.is_visible_after_wait(self.iview_login.log_in_to_watch_btn) == True, "#####Login to Watch Button is not visible on Onboarding Screen"
             self.iview_login.clickOnLoginToWatchBtn()
+        except Exception as e:
+            self.handle_exception(App, e)
+
+    def test_002_login_flow(self, App):
+        try:
+            self.init_test(App)
+            self.logger.info("*************** Test_Login_002 *****************")
+
             # Perform Login Steps
 
             # Logout if app is already logged in
@@ -49,10 +58,10 @@ class TestLogin(BaseTests):
     """
     test_login_profile_002: when user is already logged in either after test_login_flow_001 execution or by default logged in
     """
-    def test_002_login_wws_validation_after_login(self, App):
+    def test_003_login_wws_validation_after_login(self, App):
         try:
             self.init_test(App)
-            self.logger.info("*************** Test_Login_002 *****************")
+            self.logger.info("*************** Test_Login_003 *****************")
             assert self.whos_watching_screen.verifyTitleVisible() == True, "#######Title not visible on Who's Watching Screen"
             self.logger.info("**** Who's Watching Screen Title Verified Successfully ****")
 
